@@ -1,3 +1,9 @@
+<?php
+
+include_once __DIR__ . "/data/products.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +15,7 @@
 </head>
 
 <body>
-
+    <?php var_dump($products) ?>
 </body>
 
 </html>
